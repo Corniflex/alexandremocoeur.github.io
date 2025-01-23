@@ -511,7 +511,7 @@ let englishLegal = {
                Adress : 88 COLIN P. KELLY JR ST CA 94107 , 99404 SAN FRANCISCO ETATS-UNIS<br>\
                Phone : 08.92.97.66.70<br>\
                Website : https://github.com",
-    "presentation" : "The website [placeholder] is Alexandre Mocoeur's personal portfolio, covering professional productions in the field of videogames developpment.",
+    "presentation" : "The website corniflex.github.io/portfolio is Alexandre Mocoeur's personal portfolio, covering professional productions in the field of videogames developpment.",
     "property" : "All elements present on this website (texts, images, logos, videos,...) are protected by copyright and laws covering intellectual property. \
                   All unauthorized reproduction, distribution or exploitation of said elements is forbidden without the author's prior authorization.",
     "hypertext" : "This website can contain links leading to other websites. I am not responsible of the contant hosted on said sites or what you use it for.",
@@ -541,7 +541,7 @@ let frenchLegal = {
                Adresse : 88 COLIN P. KELLY JR ST CA 94107 , 99404 SAN FRANCISCO ETATS-UNIS<br>\
                Téléphone : 08.92.97.66.70<br>\
                Site web : https://github.com",
-    "presentation" : "Le site [placeholder] est le portfolio personnel d'Alexandre Mocoeur, qui présente mes réalisations professionnelles dans le domaine du développement de jeu-vidéo.",
+    "presentation" : "Le site corniflex.github.io/portfolio est le portfolio personnel d'Alexandre Mocoeur, qui présente mes réalisations professionnelles dans le domaine du développement de jeu-vidéo.",
     "property" : "Tous les éléments présents sur ce site (textes, images, logos, vidéos, etc.) sont protégés par les droits d’auteur et la législation sur la propriété intellectuelle. \
                   Toute reproduction, diffusion ou exploitation non autorisée de ces éléments est interdite sans l’accord préalable écrit de l’auteur.",
     "hypertext" : "Le site peut contenir des liens vers d’autres sites web. Je ne suis en aucun cas responsable du contenu de ces sites externes et de l’usage que vous en faites.",
