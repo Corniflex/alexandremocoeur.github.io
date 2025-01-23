@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <meta charset="utf8"></meta>
+    <link rel="stylesheet", href="css/background.css">
+    <title> A. Mocoeur - Portfolio/Projets </title>
+    </head>
+    <body onload="setSessionLanguage(getSessionLanguage(), 'ProjectDetail', getSessionProject())">
+        <div class="topnav">
+            <div>
+                <p class="font">A. Mocoeur - <span class="text-color-pink"> Portfolio <span></a>
+            </div>
+            <div>
+                <div>
+                    <a id="accueil" class="font" href="index.html">Accueil</a>
+                    <a id="projets" class="font" href="projets.html">Projets</a>
+                    <a class="font" href="contact.html">
+                        <span class="text-color-blue">
+                            <span id="contact">Contact</span>
+                        </span>
+                    </a>
+                    <div>
+                        <button class="flag-button" onclick="setSessionLanguage('fr', 'ProjectDetail', getSessionProject());" type="button">
+                            <img src="rsc/images/FlagFRSquare.png" alt="ButtonIcon" style="border-radius: 100%;">
+                        </button>
+                        <button class="flag-button" onclick="setSessionLanguage('en', 'ProjectDetail', getSessionProject());" type="button">
+                            <img src="rsc/images/FlagUKUSSquare.png" alt="ButtonIcon" style="border-radius: 100%;">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="vitrine">
+            <div class="box-projet">
+                <div class="box-projet-sub">
+                    <div class="landscape">
+                        <img id="intro_image" src="" alt="InfernaleGuerraIllustration">
+                    </div>
+                    <div class="box-projet-info">
+                        <h2 id="intro_title" class="text-color-blue">Projet</h2>
+                        <p id="intro_sub" class="sub-font">Genre</p>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/UnrealLogo.png" alt="Logo">
+                            </div>
+                            <p id="intro_list0" class="font">Moteur</p>
+                        </div>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/PC.png" alt="Logo">
+                            </div>
+                            <p id="intro_list1" class="font">Plateforme</p>
+                        </div>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/Multiplayer.png" alt="Logo">
+                            </div>
+                            <p id="intro_list2" class="font">Nombre de joueurs</p>
+                        </div>
+                    </div>                 
+                </div>
+                <div>
+                    <p id="intro_desc" class="font">
+                        Pitch
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="gradient-line">
+        
+        <div class="vitrine">
+            <div class="box-projet">
+                <div class="box-projet-sub box-projet-force-right">
+                    <div class="box-projet-info">
+                        <h2 id="context_title" class="text-color-blue">Contexte</h2>
+                        <p id="context_sub" class="sub-font">Contexte / Détail</p>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/Multiplayer.png" alt="Logo">
+                            </div>
+                            <p id="context_list0" class="font">Équipe / Objectif</p>
+                        </div>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/Palette.png" alt="Logo">
+                            </div>
+                            <p id="context_list1" class="font"> Sous catégorie 1 </p>
+                        </div>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/Design.png" alt="Logo">
+                            </div>
+                            <p id="context_list2" class="font"> Sous catégorie 2 </p>
+                        </div>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/PC.png" alt="Logo">
+                            </div>
+                            <p id="context_list3" class="font"> Sous catégorie 3 </p>
+                        </div>
+                    </div>
+                    <div class="landscape">
+                        <img id="context_image" src="" alt="GameImage">                 
+                    </div>
+                </div>
+                <div>
+                    <p id="context_desc" class="font">
+                        Détail approfondi
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="gradient-line">
+
+        <div class="vitrine">
+            <div class="box-projet">
+                <div class="box-projet-sub">
+                    <div class="landscape">
+                        <img id="mainTask_image" src="" alt="GameImage">                 
+                    </div>
+                    <div class="box-projet-info">
+                        <h2 id="mainTask_title" class="text-color-blue">Tâches / Recherches</h2>
+                        <p id="mainTask_sub" class="sub-font">Problématique</p>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/UnrealLogo.png" alt="Logo">
+                            </div>
+                            <p id="mainTask_list0" class="font">Partie 1</p>
+                        </div>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/ParticlesLogo.png" alt="Logo">
+                            </div>
+                            <p id="mainTask_list1" class="font">Partie 2</p>
+                        </div>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/GridLogo.png" alt="Logo">
+                            </div>
+                            <p id="mainTask_list2" class="font">Partie 3</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p id="mainTask_pre" class="font">
+                        Introduction
+                    </p>
+                    <h3 id="mainTask_title0" class="text-color-blue">
+                        Sous-titre 1
+                    </h3>
+                    <p id="mainTask_desc0" class="font">
+                        Description 1 
+                    </p>
+                    <h3 id="mainTask_title1" class="text-color-blue">
+                        Sous-titre 2
+                    </h3>
+                    <p id="mainTask_desc1" class="font">
+                        Description 2
+                    </p>
+                    <h3 id="mainTask_title2" class="text-color-blue">
+                        Sous-titre 3
+                    </h3>
+                    <p id="mainTask_desc2" class="font">
+                        Description 3
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div>
+                <a class="sub-font" href="legal_notices.html">
+                    <span id="legal">Mentions Légales</span>
+                </a>
+            </div>
+            <div>
+                <p class="sub-font">
+                    2025 - © Alexandre Mocoeur
+                </p>
+            </div>
+        </div>
+    
+        <script src="./js/import.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <meta charset="utf8"></meta>
+    <link rel="stylesheet", href="css/background.css">
+    <title> A. Mocoeur - Portfolio/Contact </title>
+    </head>
+    <body onload="setSessionLanguage(getSessionLanguage(), 'Contact')">
+        <div class="topnav">
+            <div>
+                <p class="font">A. Mocoeur - <span class="text-color-pink"> Portfolio <span></a>
+            </div>
+            <div>
+                <div>
+                    <a id="accueil" class="font" href="index.html">Accueil</a>
+                    <a id="projets" class="font" href="projets.html">Projets</a>
+                    <a class="font" href="contact.html">
+                        <span class="text-color-blue">
+                            <span id="contact">Contact</span>
+                        </span>
+                    </a>
+                    <div>
+                        <button class="flag-button" onclick="setSessionLanguage('fr', 'Contact');" type="button">
+                            <img src="rsc/images/FlagFRSquare.png" alt="ButtonIcon" style="border-radius: 100%;">
+                        </button>
+                        <button class="flag-button" onclick="setSessionLanguage('en', 'Contact');" type="button">
+                            <img src="rsc/images/FlagUKUSSquare.png" alt="ButtonIcon" style="border-radius: 100%;">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="vitrine">
+            <div class="box-projet">
+                <div class="box-projet-info">
+                    <div class="box-projet-image-line">
+                        <p id="phone" class="font">Téléphone : (+33) 06.84.79.95.66</p>
+                    </div>
+                    <div class="box-projet-image-line">
+                        <p id="mail" class="font">Mail Pro. : alexandremocoeur@gmail.com</p>
+                    </div>
+                    <div class="box-projet-image-line">
+                        <a id="linkedin" href="https://www.linkedin.com/in/alexandre-mocoeur-25479b249/" class="font">Profil Linkedin</a>
+                    </div>
+                    <div class="box-projet-image-line">
+                        <a id="resume" href="rsc/downloadable/CV_AM_2025_RUBIKA_FR.pdf" class="font" download>Mon CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer" style="position: absolute; bottom: 0;">
+            <div>
+                <a class="sub-font" href="legal_notices.html">
+                    <span id="legal">Mentions Légales</span>
+                </a>
+            </div>
+            <div>
+                <p class="sub-font">
+                    2025 - © Alexandre Mocoeur
+                </p>
+            </div>
+        </div>
+
+        <script src="./js/import.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,173 @@
+<html>
+<head>
+    <meta charset="utf8"></meta>
+    <link rel="stylesheet", href="css/background.css">
+    <title> Alexandre Mocoeur - Portfolio </title>
+    <script type="text/javascript" src="./js/main.js"></script>
+</head>
+<body onload="setSessionLanguage(getSessionLanguage(), 'Index')">
+    <div class="topnav">
+        <div>
+            <p class="font">A. Mocoeur - <span class="text-color-pink"> Portfolio <span></a>
+        </div>
+        <div>
+            <div>
+                <a id="accueil" class="font" href="index.html">Accueil</a>
+                <a id="projets" class="font" href="projets.html">Projets</a>
+                <a class="font" href="contact.html">
+                    <span class="text-color-blue">
+                        <span id="contact">Contact</span>
+                    </span>
+                </a>
+                <div>
+                    <button class="flag-button" onclick="setSessionLanguage('fr', 'Index');" type="button">
+                        <img src="rsc/images/FlagFRSquare.png" alt="ButtonIcon" style="border-radius: 100%;">
+                    </button>
+                    <button class="flag-button" onclick="setSessionLanguage('en', 'Index');" type="button">
+                        <img src="rsc/images/FlagUKUSSquare.png" alt="ButtonIcon" style="border-radius: 100%;">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero">
+        <img src="rsc/images/Frame_1.png" alt="ProfilePicture" width="400" height="400">
+        <div class="hero-sub">
+            <div>
+                <h1>
+                    <span id="hero_title">Développeur IA / Systèmes</span>
+                </h1>
+            </div>
+            <div>
+                <h2>
+                    <span class="text-color-blue">
+                        <span id="job_name">Étudiant</span>
+                    </span> 
+                        <span id="job_at">à</span> 
+                    <span class ="text-color-blue">
+                        <span id="job_place">Rubika</span>
+                    </span>
+                        <span id="job_country">, France</span>
+                    </h2>
+            </div>
+            <div>
+                <p id="hero_desc" class="font">
+                    Passionné par le monde du jeu-vidéo depuis mon plus jeune âge, j'aspire à apporter mes compétences à l'insudstrie.
+                    Créatif, curieux et investi, j'aime résoudre des problèmes complexes et ne recule pas devant les défis.
+                    Spécialisé en IA et en systèmes, j'aborde les problématiques techniques touchant au comportement des personnages et au fonctionnement du monde du jeu. 
+                </p>
+            </div>
+            <div>
+                <p id="hero_quote" class="sub-font">~ A vaincre sans péril, on triomphe sans gloire. ~</p>
+            </div>
+        </div>
+    </div>
+
+    <hr class ="gradient-line">
+
+    <div class="vitrine">
+        <h2 id="last_project_title" class="text-color-blue">DERNIER PROJET</h2>
+        <div class="vitrine-display">
+            <div class="landscape">
+                <img src="rsc/images/InfernaleGuerra/InfernaleGuerra1.png" alt="InfernaleGuerraIllustration">
+            </div>
+            <div style="row-gap: 25px;">
+                <div>
+                    <h2>Infernale Guerra</h2>
+                </div>
+                <div>
+                    <p id="last_project_desc" class="font">
+                        Infernale Guerra est un jeu de stratégie en quatre contre quatre, où le joueur incarne un Archidémon à la tête d'une armée d'innombrables sous-fifres.
+                    </p>
+                </div>
+                <div>
+                    <a id="last_project_button" class="font button gradient-border-mask" href="projets.html">Découvrir</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="gradient-line">
+
+    <div>
+        <h2 class="text-color-blue">
+            <span id="skills">COMPÉTENCES</span>
+        </h2>
+    </div>
+    
+    <div class="skills">
+        <div>
+            <div class="skills-table-title gradient-border-mask">
+                <h3 id="hard_skills">COMPÉTENCES TECHNIQUES</h3>
+            </div>
+            <div class="skills-table">
+                <div>
+                    <p id="hard_skills1" class="font">C / C++</p>
+                </div>
+                <div>
+                    <p id="hard_skills2" class="font">C#<p>
+                </div>
+                <div>
+                    <p id="hard_skills3" class="font">PERFORCE</p>
+                </div>
+                <div>
+                    <p id="hard_skills4" class="font">GIT / GITHUB</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="skills-table-title gradient-border-mask">
+                <h3 id="engines">MOTEURS</h3>
+            </div>
+            <div class="skills-table">
+                <div>
+                    <p id="engines1" class="font">UNREAL C++</p>
+                </div>
+                <div>
+                    <p id="engines2" class="font">UNREAL BLUEPRINT<p>
+                </div>
+                <div>
+                    <p id="engines3" class="font">UNITY</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="skills-table-title gradient-border-mask">
+                <h3 id="soft_skills">SOFT SKILLS</h3>
+            </div>
+            <div class="skills-table">
+                <div>
+                    <p id="soft_skills1" class="font">TEAM WORKER</p>
+                </div>
+                <div>
+                    <p id="soft_skills2" class="font">QUICK LEARNER<p>
+                </div>
+                <div>
+                    <p id="soft_skills3" class="font">CRITICAL THINKER</p>
+                </div>
+                <div>
+                    <p id="soft_skills4" class="font">PROBLEM SOLVER</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>
+            <a class="sub-font" href="legal_notices.html">
+                <span id="legal">Mentions Légales</span>
+            </a>
+        </div>
+        <div>
+            <p class="sub-font">
+                2025 - © Alexandre Mocoeur
+            </p>
+        </div>
+    </div>
+
+    <script src="./js/import.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "header": {
+        "home": "Accueil",
+        "projects": "Projets",
+        "contact": "Contact"
+    },
+
+    "last_project": {
+        "title" : "Last Project"
+    }
+}

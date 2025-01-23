@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <meta charset="utf8"></meta>
+    <link rel="stylesheet", href="css/background.css">
+    <title> A. Mocoeur - Portfolio/Projets </title>
+    </head>
+    <body onload="setSessionLanguage(getSessionLanguage(), 'Projects')">
+        <div class="topnav">
+            <div>
+                <p class="font">A. Mocoeur - <span class="text-color-pink"> Portfolio <span></a>
+            </div>
+            <div>
+                <div>
+                    <a id="accueil" class="font" href="index.html">Accueil</a>
+                    <a id="projets" class="font" href="projets.html">Projets</a>
+                    <a class="font" href="contact.html">
+                        <span class="text-color-blue">
+                            <span id="contact">Contact</span>
+                        </span>
+                    </a>
+                    <div>
+                        <button class="flag-button" onclick="setSessionLanguage('fr', 'Projects');" type="button">
+                            <img src="rsc/images/FlagFRSquare.png" alt="ButtonIcon" style="border-radius: 100%;">
+                        </button>
+                        <button class="flag-button" onclick="setSessionLanguage('en', 'Projects');" type="button">
+                            <img src="rsc/images/FlagUKUSSquare.png" alt="ButtonIcon" style="border-radius: 100%;">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="vitrine">
+            <div class="box-projet">
+                <div class="box-projet-sub box">
+                    <div class="landscape">
+                        <img src="rsc/images/InfernaleGuerra/InfernaleGuerra1.png" alt="InfernaleGuerraIllustration">
+                    </div>
+                    <div class="box-projet-info">
+                        <h2 class="text-color-blue">Infernale Guerra</h2>
+                        <p id="IG_sub" class="sub-font">Jeu de stratégie</p>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/UnrealLogo.png" alt="Logo">
+                            </div>
+                            <p class="font">Unreal Engine</p>
+                        </div>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/PC.png" alt="Logo">
+                            </div>
+                            <p class="font">PC</p>
+                        </div>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/Multiplayer.png" alt="Logo">
+                            </div>
+                            <p id="IG_players" class="font">JcJ 4 Joueurs</p>
+                        </div>
+                    </div>                 
+                </div>
+                <div>
+                    <p id="IG_desc" class="font">
+                        Infernale Guerra est un jeu de stratégie en quatre contre quatre, où le joueur incarne un Archidémon à la tête d'une armée d'innombrables sous-fifres. <br>
+                        Se voulant accessible aux joueurs souhaitant découvrir ou redécouvrir le genre du RTS, Infernale Guerra se détache du princpe de micro-management, préférant
+                        mettre le focus sur la stratégie et la reflexion, plutot que sur la réaction.
+                    </p>
+                </div>
+                <div>
+                    <a id="IG_button" onclick="setSessionProject('IG')" class="font button gradient-border-mask" href="projet_detail.html">En Savoir Plus</a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="gradient-line">
+        
+        <div class="vitrine">
+            <div class="box-projet">
+                <div class="box-projet-sub box-projet-force-right">
+                    <div class="box-projet-info">
+                        <h2 class="text-color-blue">Long Way To Earth</h2>
+                        <p id="LWTE_sub" class="sub-font">Jeu de gestion narratif</p>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/UnityLogo.png" alt="Logo">
+                            </div>
+                            <p class="font">Unity</p>
+                        </div>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/PC.png" alt="Logo">
+                            </div>
+                            <p class="font">PC</p>
+                        </div>
+                        <div class="box-projet-image-line">
+                            <div class="square-icon">
+                                <img src="rsc/images/Logos/Solo.png" alt="Logo">
+                            </div>
+                            <p id="LWTE_players" class="font">Solo</p>
+                        </div>
+                    </div>
+                    <div class="portrait">
+                        <img src="rsc/images/LongWayToEarth/LongWayToEarthLogo.png" alt="GameImage">                 
+                    </div>
+                </div>
+                <div>
+                    <p id="LWTE_desc" class="font">
+                        Long Way To Earth est un jeu de gestion solo, où le joueur prend la place de l'intelligence artificielle embarquée d'un vaisseau, chargée de ramener un artéfact mystérieux jusqu'à la terre. <br>
+                        Gérez vos ressources, assignez votre équipage à différentes tâches et résolvez les conflits entre vos passagers afin d'assurer la réussite de votre mission.
+                    </p>
+                </div>
+                <div>
+                    <a id="LWTE_button" onclick="setSessionProject('LWTE')" class="font button gradient-border-mask" href="projet_detail.html">En Savoir Plus</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div>
+                <a class="sub-font" href="legal_notices.html">
+                    <span id="legal">Mentions Légales</span>
+                </a>
+            </div>
+            <div>
+                <p class="sub-font">
+                    2025 - © Alexandre Mocoeur
+                </p>
+            </div>
+        </div>
+
+        <script src="./js/import.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
