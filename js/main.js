@@ -162,9 +162,17 @@ let englishIGDetail = {
             "class" : "landscape",
         },
         "list" : {
-            "item0" : "Unreal Engine",
-            "item1" : "PC",
-            "item2" : "4 Player PvP",
+            "logos" : {
+                "item0" : "rsc/images/Logos/UnrealLogo.png",
+                "item1" : "rsc/images/Logos/PC.png",
+                "item2" : "rsc/images/Logos/Multiplayer.png",
+                "item3" : "",
+            },
+            "tags" : {    
+                "item0" : "Unreal Engine",
+                "item1" : "PC",
+                "item2" : "4 Player PvP",
+            }
         },
         "desc" : "Infernale Guerra is a four player free for all strategy game,  where the player takes the role of an Archdemon leading hordes of underlings. <br> \
                   Looking to be accessible for players wishing to discover or rediscover the RTS genre, Infernale Guerra detaches itself from the principle of \
@@ -181,10 +189,18 @@ let englishIGDetail = {
             "class" : "landscape",
         },
         "list" : {
-            "item0" : "Team of 10",
-            "item1" : "- 5 Artists",
-            "item2" : "- 2 Designers",
-            "item3" : "- 3 Developers",
+            "logos" : {
+                "item0" : "rsc/images/Logos/Multiplayer.png",
+                "item1" : "rsc/images/Logos/Palette.png",
+                "item2" : "rsc/images/Logos/Design.png",
+                "item3" : "rsc/images/Logos/PC.png",
+            },
+            "tags" : {    
+                "item0" : "Team of 10",
+                "item1" : "- 5 Artists",
+                "item2" : "- 2 Designers",
+                "item3" : "- 3 Developers",
+            }
         },
         "desc" : "In context of my last year as a student at Rubika, I had to join a team with which the game concept was laid. Following what we presented to the teaching team, \
                   our goal is to present a version of our game that is both stable and playable, with around one hour of concrete playtime.\
@@ -201,9 +217,17 @@ let englishIGDetail = {
             "class" : "landscape",
         },
         "list" : {
-            "item0" : "Mass AI - Unreal Engine's ECS",
-            "item1" : "Niagara - Some particles trickery",
-            "item2" : "Detection grid - Optimizing unit detection",
+            "logos" : {
+                "item0" : "rsc/images/Logos/UnrealLogo.png",
+                "item1" : "rsc/images/Logos/ParticlesLogo.png",
+                "item2" : "rsc/images/Logos/GridLogo.png",
+                "item3" : "",
+            },
+            "tags" : {    
+                "item0" : "Mass AI - Unreal Engine's ECS",
+                "item1" : "Niagara - Some particles trickery",
+                "item2" : "Detection grid - Optimizing unit detection",
+            }
         },
         "desc" : {
             "pre" : "In our project's context, we wanted to create a feeling of power within the player. This is done by putting him in control of a great number of units, \
@@ -248,9 +272,17 @@ let frenchIGDetail = {
             "class" : "landscape",
         },
         "list" : {
-            "item0" : "Unreal Engine",
-            "item1" : "PC",
-            "item2" : "JcJ 4 Joueurs",
+            "logos" : {
+                "item0" : "rsc/images/Logos/UnrealLogo.png",
+                "item1" : "rsc/images/Logos/PC.png",
+                "item2" : "rsc/images/Logos/Multiplayer.png",
+                "item3" : "",
+            },
+            "tags" : {    
+                "item0" : "Unreal Engine",
+                "item1" : "PC",
+                "item2" : "JcJ 4 Joueurs",
+            }
         },
         "desc" : "Infernale Guerra est un jeu de stratégie en quatre contre quatre, où le joueur incarne un Archidémon à la tête d'une armée d'innombrables sous-fifres. <br> \
                   Se voulant accessible aux joueurs souhaitant découvrir ou redécouvrir le genre du RTS, Infernale Guerra se détache du princpe de micro-management, \
@@ -266,10 +298,18 @@ let frenchIGDetail = {
             "class" : "landscape",
         },
         "list" : {
-            "item0" : "Équipe de 10",
-            "item1" : "- 5 Artistes",
-            "item2" : "- 2 Designers",
-            "item3" : "- 3 Developpeurs",
+            "logos" : {
+                "item0" : "rsc/images/Logos/Multiplayer.png",
+                "item1" : "rsc/images/Logos/Palette.png",
+                "item2" : "rsc/images/Logos/Design.png",
+                "item3" : "rsc/images/Logos/PC.png",
+            },
+            "tags" : {    
+                "item0" : "Équipe de 10",
+                "item1" : "- 5 Artistes",
+                "item2" : "- 2 Designers",
+                "item3" : "- 3 Developpeurs",
+            }
         },
         "desc" : "Dans le cadre de ma dernière année d'études à Rubika, j'ai du rejoindre une équipe avec laquelle a été posé le concept du jeu. \
                   En respectant ce que nous avons présenté à l'équipe pédagogique, nous avons pour objectif de présenter une version jouable et stable, \
@@ -289,9 +329,17 @@ let frenchIGDetail = {
             "class" : "landscape",
         },
         "list" : {
-            "item0" : "Mass AI - L'ECS d'Unreal Engine",
-            "item1" : "Niagara - Ruser avec des particules",
-            "item2" : "Grille de détection - Optimiser les détections",
+            "logos" : {
+                "item0" : "rsc/images/Logos/UnrealLogo.png",
+                "item1" : "rsc/images/Logos/ParticlesLogo.png",
+                "item2" : "rsc/images/Logos/GridLogo.png",
+                "item3" : "",
+            },
+            "tags" : {    
+                "item0" : "Mass AI - L'ECS d'Unreal Engine",
+                "item1" : "Niagara - Ruser avec des particules",
+                "item2" : "Grille de détection - Optimiser les détections",
+            }
         },
         "desc" : {
             "pre" : "Dans le cadre du projet, nous voulions créer ce sentiment de puissance chez le joueur. Cela se fait au travers d'une grande quantité d'unité sous son controle, \
@@ -343,9 +391,17 @@ let englishLWTEDetail = {
             "class" : "portrait",
         },
         "list" : {
-            "item0" : "Unity",
-            "item1" : "PC",
-            "item2" : "Singleplayer",
+            "logos" : {
+                "item0" : "rsc/images/Logos/UnityLogo.png",
+                "item1" : "rsc/images/Logos/PC.png",
+                "item2" : "rsc/images/Logos/Solo.png",
+                "item3" : "",
+            },
+            "tags" : {    
+                "item0" : "Unity",
+                "item1" : "PC",
+                "item2" : "Singleplayer",
+            }
         },
         "desc" : "Long Way To Earth is a singleplayer stategy game, where the player endorses the role of a spaceship's onboard AI, charged with bringing \
                   a mysterious artifact back to Earth. <br> \
@@ -359,9 +415,17 @@ let englishLWTEDetail = {
             "class" : "landscape",
         },
         "list" : {
-            "item0" : "Team of 6",
-            "item1" : "- 3 Designers",
-            "item2" : "- 3 Developpers",
+            "logos" : {
+                "item0" : "rsc/images/Logos/Multiplayer.png",
+                "item1" : "rsc/images/Logos/Design.png",
+                "item2" : "rsc/images/Logos/PC.png",
+                "item3" : "",
+            },
+            "tags" : {    
+                "item0" : "Team of 6",
+                "item1" : "- 3 Designers",
+                "item2" : "- 3 Developpers",
+            }
         },
         "desc" : "In context of my fourth year program at Rubika, we had to make a game in six months, working alongside game design students.\
                   <br>\
@@ -375,8 +439,16 @@ let englishLWTEDetail = {
             "class" : "landscape",
         },
         "list" : {
-            "item0" : "The Idea",
-            "item1" : "How it works",
+            "logos" : {
+                "item0" : "rsc/images/Logos/ListLogo.png",
+                "item1" : "rsc/images/Logos/CogLogo.png",
+                "item2" : "",
+                "item3" : "",
+            },
+            "tags" : {    
+                "item0" : "The Idea",
+                "item1" : "How it works",
+            }
         },
         "desc" : {
             "pre" : "My main task during the project was to find a way to link the story's progression with the state of the different characters.\
@@ -412,9 +484,17 @@ let frenchLWTEDetail = {
             "class" : "portrait",
         },
         "list" : {
-            "item0" : "Unity",
-            "item1" : "PC",
-            "item2" : "Solo",
+            "logos" : {
+                "item0" : "rsc/images/Logos/UnityLogo.png",
+                "item1" : "rsc/images/Logos/PC.png",
+                "item2" : "rsc/images/Logos/Solo.png",
+                "item3" : "",
+            },
+            "tags" : {    
+                "item0" : "Unity",
+                "item1" : "PC",
+                "item2" : "Solo",
+            }
         },
         "desc" : "Long Way To Earth est un jeu de gestion solo, où le joueur prend la place de l'intelligence artificielle embarquée d'un vaisseau, \
                   chargée de ramener un artéfact mystérieux jusqu'à la terre.\
@@ -429,9 +509,17 @@ let frenchLWTEDetail = {
             "class" : "landscape",
         },
         "list" : {
-            "item0" : "Équipe de 6",
-            "item1" : "- 3 Designers",
-            "item2" : "- 3 Developeurs",
+            "logos" : {
+                "item0" : "rsc/images/Logos/Multiplayer.png",
+                "item1" : "rsc/images/Logos/Design.png",
+                "item2" : "rsc/images/Logos/PC.png",
+                "item3" : "",
+            },
+            "tags" : {    
+                "item0" : "Équipe de 6",
+                "item1" : "- 3 Designers",
+                "item2" : "- 3 Developeurs",
+            }
         },
         "desc" : "Dans le cadre du programme de quatrième année à Rubika, nous avons eu a réaliser un projet sur six mois, en collaboration avec la promotion de designers.\
                   <br>\
@@ -446,8 +534,16 @@ let frenchLWTEDetail = {
             "class" : "portrait",
         },
         "list" : {
-            "item0" : "Le Principe",
-            "item1" : "Le Fonctionnement",
+            "logos" : {
+                "item0" : "rsc/images/Logos/ListLogo.png",
+                "item1" : "rsc/images/Logos/CogLogo.png",
+                "item2" : "",
+                "item3" : "",
+            },
+            "tags" : {    
+                "item0" : "Le Principe",
+                "item1" : "Le Fonctionnement",
+            }
         },
         "desc" : {
             "pre" : "Ma tâche principale au cours du projet a été de trouver une méthode pérmettant de lier l'évolution de l'histoire à l'état des personnages.\
@@ -887,11 +983,14 @@ function setProjectDetailSub(doc, tag, multipleDesc)
     img.src = doc.image.path
     img.parentElement.className = doc.image.class 
 
-    let itemsInList = Object.keys(doc.list).length
-    let subList = Object.values(doc.list)
-    
+    let itemsInList = Object.keys(doc.list.tags).length
+    let tags = Object.values(doc.list.tags)
+    let logos = Object.values(doc.list.logos)
     for(i = 0; i < itemsInList; ++i)
-        document.getElementById(tag+"_list"+i).innerHTML = subList[i]
+    {
+        document.getElementById(tag+"_list"+i).innerHTML = tags[i]
+        document.getElementById(tag+"_list"+i+"_logo").src = logos[i]
+    }
     
     
     if(!multipleDesc)
